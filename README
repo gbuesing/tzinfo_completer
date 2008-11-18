@@ -1,0 +1,5 @@
+= TZInfo Completer
+
+Contains the parts of the TZInfo gem not included in the slimmed-down version in ActiveSupport.
+
+Version number for this gem corresponds to the TZInfo version it's extracted from.
