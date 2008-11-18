@@ -1,3 +1,5 @@
+require 'fileutils'
+
 Gem::Specification.new do |s|
   s.name     = "tzinfo_completer"
   s.version  = "0.3.12"
