@@ -3,7 +3,6 @@ gem 'activesupport', '2.2.1'
 require 'activesupport'
 
 namespace :tzinfo do
-  desc "Update bundled tzinfo gem. Only copies the subset of classes and definitions required to support Rails time zone features."
   task :update => ['tzinfo:copy_classes', 'tzinfo:copy_definitions', 'tzinfo:copy_indexes'] do
     Rake::Task['tzinfo:cleanup_tmp'].invoke
   end
